@@ -1,0 +1,48 @@
+.current-blog {
+  background-color: $white1;
+  box-sizing: border-box;
+  color: $gray3;
+  padding: 0 2% 5% 4%;
+  width: 75%;
+
+  .blog-author {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  .blog-title {
+    color: $purple3;
+    font-size: 2em;
+  }
+
+  .blog-date {
+    display: block;
+    font-size: .4em;
+    font-style: italic;
+  }
+
+  .blog-paragraph {
+    text-indent: 16px;
+  }
+
+  .paragraph-header {
+    margin: 5% 0 0;
+  }
+
+  .slight-emphasis {
+    font-weight: 600;
+  }
+
+  .simple-list {
+    list-style-type: none;
+
+    .simple-list-item {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+#server-image {
+  height: auto;
+  width: 60%;
+}

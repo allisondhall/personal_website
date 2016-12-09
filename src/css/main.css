@@ -1,0 +1,87 @@
+.current-blog {
+  background-color: #FAFAFA;
+  box-sizing: border-box;
+  color: #1A1A1A;
+  padding: 0 2% 5% 4%;
+  width: 75%; }
+  .current-blog .blog-author {
+    font-size: 1.2em;
+    font-style: italic; }
+  .current-blog .blog-title {
+    color: #210B2C;
+    font-size: 2em; }
+  .current-blog .blog-date {
+    display: block;
+    font-size: .4em;
+    font-style: italic; }
+  .current-blog .blog-paragraph {
+    text-indent: 16px; }
+  .current-blog .paragraph-header {
+    margin: 5% 0 0; }
+  .current-blog .slight-emphasis {
+    font-weight: 600; }
+  .current-blog .simple-list {
+    list-style-type: none; }
+    .current-blog .simple-list .simple-list-item {
+      margin-bottom: 8px; }
+
+#server-image {
+  height: auto;
+  width: 60%; }
+
+body {
+  background-color: #EAEAEA;
+  font-family: Helvetica;
+  margin: 0; }
+
+figcaption {
+  font-size: 0.8em; }
+
+.name {
+  color: #FFF8F0;
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 0; }
+
+.tagline {
+  color: #AEC5EB; }
+
+.header {
+  background-color: #210B2C;
+  padding: 1.5% 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; }
+
+.main-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 8%; }
+
+.personal-info {
+  background-color: #abacbd;
+  box-sizing: border-box;
+  color: #210B2C;
+  padding: 20px;
+  width: 25%; }
+
+.archive-title {
+  margin-top: 32px; }
+
+.blog-list {
+  list-style-type: none;
+  padding-left: 8px; }
+
+.LI-profile-badge .LI-badge-container.horizontal.light {
+  background-color: #FAFAFA;
+  width: 100%; }
+
+@media screen and (max-device-width: 890px) {
+  .main-wrapper {
+    flex-direction: column; }
+  .current-blog,
+  .personal-info {
+    width: 100%; } }

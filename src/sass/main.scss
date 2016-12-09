@@ -1,0 +1,92 @@
+@import 'constants';
+@import 'currentBlog';
+
+body {
+  background-color: $gray2;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+.name  {
+  color: $white2;
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.tagline {
+  color: $purple2;
+}
+
+.header {
+  background-color: $purple3;
+  padding: 1.5% 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.history-title {
+  margion-top: 5%;
+  margin-bottom: 5px;
+}
+
+.history-list {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-top: 0;
+  padding-left: 15px;
+
+  .history-link {
+    color: $purple3;
+    text-decoration: none;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 8%;
+}
+
+.personal-info {
+  background-color: $purple1;
+  box-sizing: border-box;
+  color: $purple3;
+  padding: 20px;
+  width: 25%;
+}
+
+.archive-title {
+  margin-top: 32px;
+}
+
+.blog-list {
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+.LI-profile-badge {
+  .LI-badge-container.horizontal.light {
+    background-color: $white1;
+    width: 100%;
+  }
+}
+
+@media screen and (max-device-width: 890px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+
+  .current-blog,
+  .personal-info {
+    width: 100%;
+  }
+}
